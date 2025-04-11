@@ -32,7 +32,7 @@ options:
   loglevel: info
   transport-loglevel: warn
   ingress:
-    - hostname: ""
+    - hostname: "tonilab.cloud"
       service: http://homeassistant:8123
     - service: http_status:404
   originRequest: {}
